@@ -34,7 +34,7 @@ Techniques which can be used to solve this problem:[BEM] [SMACSS] [ITCSS]
 - Avoid the use of `display: hidden;` to fix anything. Only use `display: hidden` when you have a real good reason. Such as hide a part of an image when using border-radius on a parent element . 
 
 ## Working with multiple people / teams on the same CSS / SASS codebase
-Most of the time it is hard to understand choices made by other developers. Instead of rewriting the code, the time it takes to understand the code should be brought back to a minimum. Theirfor you should write your code in a similar way. 
+Most of the time it is hard to understand choices made by other developers. Instead of rewriting the code, the time it takes to understand the code should be brought back to a minimum. Theirfor developers should write code in a similar way at first place. 
 
 ### How to write sharable code which is understood by other developers
 ### Different ways of thinking and problem solving
