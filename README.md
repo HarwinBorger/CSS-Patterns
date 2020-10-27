@@ -27,8 +27,8 @@ Techniques which can be used to solve this problem:[BEM] [SMACSS] [ITCSS]
 ### How to extend features / modules which are already made
 
 ### Practical tips
-- Avoid styling on elements such as H1, H2, H3 in combination with classes
-- Avoid the use of the `!important` tag. The reason you needed to use at first place means that your code is probably unstable. Best practise is to solve the problem at is core by applying all tips above.
+- Avoid styling on elements such as H1, H2, H3 in combination with classes. Avoid a mess of cascading styles not knowing what the result could be. 
+- Avoid the use of the `!important` tag. The reason you needed it at first place means that your code is probably unstable at some point. Best practise is to solve the problem at is core by applying all tips above. Most of the time you only need `!important` for making changes in external libraries or for utility classes where you know the result should be absolute and it main purpose was to overwrite all code. 
 - Avoid the use of `display: hidden;` to fix anything. Only use `display: hidden` when you have a real good reason. Such as hide a part of an image when using border-radius on a parent element . 
 
 ## Working with multiple people / teams on the same CSS / SASS codebase
