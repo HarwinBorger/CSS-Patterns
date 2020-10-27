@@ -25,11 +25,12 @@ Techniques which can be used to solve this problem:[BEM] [SMACSS] [ITCSS]
 ### How to extend features / modules which are already made
 
 ## Working with multiple people / teams on the same CSS / SASS codebase
+Most of the time it is hard to understand choices made by other developers. Instead of rewriting the code, the time it takes to understand the code should be brought back to a minimum. Theirfor you should write your code in a similar way. 
+
 ### How to write sharable code which is understood by other developers
 ### Different ways of thinking and problem solving
 ### Not knowing where to search for files / classes
 ### The lack of strict naming conventions
-Most of the time it is hard to understand choices made by other developers. Theirfor you should write your code in a similar way. 
 
 - Classname should match the filename. This way you can always find back the correspondending file. 
 - When writing OOCSS classes use classnames correspondending to it's vanilla working. Such `position-absolute` or `display-sticky`. 
