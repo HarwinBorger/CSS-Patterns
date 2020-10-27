@@ -4,7 +4,7 @@ And how to become a better front-end developer.
 This document uses methologies such as BEM, OOCSS, ITCSS and personal notes which help you becoming a better front-end developer.
 
 ## The problems to solve
-There is a big list with issues to overcome when you work with unstructured and plain CSS. The biggest problems to solve are:
+There is a big list with issues to overcome when you work with unstructured and plain CSS. They can be brought back in two groups:
 
 - Writing errorless and efficient code
 - Working with multiple people / teams on the same CSS / SASS codebase
