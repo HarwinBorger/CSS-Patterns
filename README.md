@@ -1,7 +1,7 @@
 # CSS-Patterns 
 How CSS-patterns wil help you master CSS to become a better front-end developer.
 
-This document uses methologies such as BEM, OOCSS, ITCSS and personal notes which help you becoming a better front-end developer.
+This document uses methologies such as BEM, OOCSS, ITCSS and personal notes.
 
 ## The problems to solve
 There is a big list with issues to overcome when you work with unstructured and plain CSS. They can be brought back in two groups:
