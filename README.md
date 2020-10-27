@@ -1,4 +1,4 @@
-# CSS-Patterns
+# CSS-Patterns and how to become a better front-end developer.
 BEM, OOCSS, ITCSS and More
 
 ## The problems to solve
