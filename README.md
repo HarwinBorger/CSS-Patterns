@@ -1,7 +1,7 @@
 # CSS-Patterns 
 How CSS-patterns wil help you master CSS and become a better front-end developer for yourself and to others. 
 
-This document uses methologies such as BEM, OOCSS, ITCSS and personal notes.
+This document uses methologies such as BEM, OOCSS, ITCSS, SMACSS and personal notes.
 
 ## The problems to solve
 There is a big list with issues to overcome when you work with unstructured and plain CSS. They can be brought back in two groups:
@@ -11,7 +11,9 @@ There is a big list with issues to overcome when you work with unstructured and 
 
 ## Writing errorless and efficient code
 ### How to avoid nesting of CSS to improve readability and code debugging? 
-To much nesting of CSS code makes it very hard to overwrite code. The trick is to avoid overwriting code at first place by bringing CSS nesting to a minimum.
+To much nesting of CSS code makes it very hard to overwrite code. The trick is to avoid overwriting code at first place by bringing CSS nesting back to a minimum.
+
+- Use ITCSS as methology to write less code and centralize your code as much as possible. ITCSS brings a perfect structure based on ATOMIC design principles. 
 
 Techniques which can be used to solve this problem:[BEM] [SMACSS] [ITCSS]
 
