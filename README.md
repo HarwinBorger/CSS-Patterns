@@ -29,7 +29,9 @@ Techniques which can be used to solve this problem:[BEM] [SMACSS] [ITCSS]
 ### Different ways of thinking and problem solving
 ### Not knowing where to search for files / classes
 ### The lack of strict naming conventions
-### How to make self sustaining / explaining documentation? [BEM] [SMACSS] [ITCSS]
+### How to make self sustaining / explaining documentation? 
+[BEM] [SMACSS] [ITCSS]
+
 Most of the times CSS is bad to understand by itself and the reasons why we make choices. This is the reason CSS should be written in such way it is self-sustaining and self-explaining. This can be done in several ways:
 
 - Use BEM notation for components. 
