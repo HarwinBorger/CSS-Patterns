@@ -29,7 +29,7 @@ Techniques which can be used to solve this problem:[BEM] [SMACSS] [ITCSS]
 ### Pratical tips
 - Avoid styling on elements such as H1, H2, H3 in combination with classes
 - Avoid the use of the `!important` tag. The reason you needed to use at first place means that your code is probably unstable. Best practise is to solve the problem at is core by applying all tips above.
-- Avoid the use of `display: hidden;` to fix anything. Only use `display: hidden` only when you have a real good reason. Such as hide a part of an image when using border-radius on a parent element . 
+- Avoid the use of `display: hidden;` to fix anything. Only use `display: hidden` when you have a real good reason. Such as hide a part of an image when using border-radius on a parent element . 
 
 ## Working with multiple people / teams on the same CSS / SASS codebase
 Most of the time it is hard to understand choices made by other developers. Instead of rewriting the code, the time it takes to understand the code should be brought back to a minimum. Theirfor you should write your code in a similar way. 
