@@ -37,3 +37,4 @@ Most of the times CSS is bad to understand by itself and the reasons why we make
 - Use BEM notation for components. 
 - Classname should match the filename. This way you can always find back the correspondending file. 
 - Use a logic file structure and methology such as SMACSS or ITCSS. When you have a SASS project I recommmend ITCSS since this fits better. 
+- When writing OOCSS classes use classnames correspondending to it's vanilla working. Such `position-absolute` or `display-sticky`. 
