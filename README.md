@@ -29,7 +29,7 @@ Techniques which can be used to solve this problem:[BEM] [SMACSS] [ITCSS]
 ### How to extend features / modules which are already made
 
 ### Practical tips
-- Avoid adding style directly on element selectors such as H1, H2, H3 in combination with classes. This avoids a mess of cascading styles not knowing what the result could be. For example: `.class-name h1` should not be used. Instead use for example the BEM notation `.class-name__title`.
+- Avoid applying style directly on element selectors such as H1, H2, H3 in combination with classes. This creates a mess of cascading styles, not knowing what the result could be. For example: `.class-name h1` should not be used. Instead use for example the BEM notation `.class-name__title`.
 - Avoid the use of the `!important` tag. The reason you needed it at first place means that your code is probably unstable at some point. Best practise is to solve the problem at is core by applying all tips above. Most of the time you only need `!important` for making changes in external libraries or for utility classes where you know the result should be absolute and it main purpose was to overwrite all code. 
 - Avoid the use of `display: hidden;` to fix anything. Only use `display: hidden` when you have a real good reason. Such as hide a part of an image when using border-radius on a parent element . 
 
