@@ -29,4 +29,9 @@ Techniques which can be used to solve this problem:[BEM] [SMACSS] [ITCSS]
 ### Different ways of thinking and problem solving
 ### Not knowing where to search for files / classes
 ### The lack of strict naming conventions
-### How to make self sustaining documentation? 
+### How to make self sustaining / explaining documentation? [BEM] [SMACSS] [ITCSS]
+Most of the times CSS is bad to understand by itself and the reasons why we make choices. This is the reason CSS should be written in such way it is self-sustaining and self-explaining. This can be done in several ways:
+
+- Use BEM notation. 
+- Make sure the main classname matches filename. This way you can always find back the correspondending file. 
+- Use a logic file structure and methology such as SMACSS or ITCSS. When you have a SASS project I recommmend ITCSS since this fits better. 
